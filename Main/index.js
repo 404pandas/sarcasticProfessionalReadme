@@ -8,38 +8,69 @@ const fs = require("fs");
 
 // Inquirer
 const inquirer = require("inquirer");
+//
+// Question types: input, number, confirm, list, rawlist, expand, checkbox, password, editor
+// To add questions, include type, message, name, and choices
 
 // Jest
 const jest = require("jest");
+const { type } = require("os");
+
+// Markdown
+const generateMarkdown = require("../utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-const questions = [];
-inquirer
-  .prompt([
-    // Types of Questions
-    // {
-    //   type: "input",
-    //   message: "What is your user name?",
-    //   name: "username",
-    // },
-    // {
-    //   type: "password",
-    //   message: "What is your password?",
-    //   name: "password",
-    // },
-    // {
-    //   type: "checkbox",
-    //   message: "What languages do you know?",
-    //   name: "languages",
-    //   choices: ["HTML", "CSS", "JavaScript", "MySQL"],
-    // },
-    // {
-    //     type: "list",
-    //     message: "What is your preferred method of communication?",
-    //     name: "contact",
-    //     choice: ["email", "phone", "telekinesis"],
-    // }
-  ])
+const questions = [
+  {
+    type: "input",
+    message: "What is your PROJECT TITLE?",
+    name: "title",
+  },
+
+  {
+    type: "input",
+    message: "What is your PROJECT DESCRIPTION?",
+    name: "description",
+  },
+
+  {
+    type: "input",
+    message: "What is your PROJECT DESCRIPTION?",
+    name: "description",
+  },
+
+  {
+    type: "input",
+    message: "What is your PROJECT DESCRIPTION?",
+    name: "description",
+  },
+
+  {
+    type: "input",
+    message: "What is your PROJECT DESCRIPTION?",
+    name: "description",
+  },
+
+  {
+    type: "input",
+    message: "What is your PROJECT DESCRIPTION?",
+    name: "description",
+  },
+
+  {
+    type: "checkbox",
+    message: "What languages do you know?",
+    name: "languages",
+    choices: ["HTML", "CSS", "JavaScript", "MySQL"],
+  },
+
+  {
+    type: "list",
+    message: "What is your preferred method of communication?",
+    name: "contact",
+    choice: ["email", "phone", "telekinesis"],
+  },
+]
 
   //   Name the files with the name answer
   .then((data) => {
@@ -59,14 +90,11 @@ inquirer
                     
                     
                     `;
-
+    // Writes README file
     fs.writeFile(`README.md`, md, (err) =>
       err ? console.log(err) : console.log("Success!")
     );
   });
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}
