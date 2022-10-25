@@ -16,27 +16,54 @@ const jest = require("jest");
 const questions = [];
 inquirer
   .prompt([
-    {
-      type: "input",
-      message: "What is your user name?",
-      name: "username",
-    },
-    {
-      type: "password",
-      message: "What is your password?",
-      name: "password",
-    },
-    {
-      type: "password",
-      message: "Re-enter password to confirm:",
-      name: "confirm",
-    },
+    // Types of Questions
+    // {
+    //   type: "input",
+    //   message: "What is your user name?",
+    //   name: "username",
+    // },
+    // {
+    //   type: "password",
+    //   message: "What is your password?",
+    //   name: "password",
+    // },
+    // {
+    //   type: "checkbox",
+    //   message: "What languages do you know?",
+    //   name: "languages",
+    //   choices: ["HTML", "CSS", "JavaScript", "MySQL"],
+    // },
+    // {
+    //     type: "list",
+    //     message: "What is your preferred method of communication?",
+    //     name: "contact",
+    //     choice: ["email", "phone", "telekinesis"],
+    // }
   ])
-  .then((response) =>
-    response.confirm === response.password
-      ? console.log("Success!")
-      : console.log("You forgot your password already?!")
-  );
+
+  //   Name the files with the name answer
+  .then((data) => {
+    // const README = `${data.name.toLowerCase().split(" ").join("")}.json)`;
+    let markdown = `#${answers.title}
+                    
+                    
+                    
+                    
+                    
+                    dynamic readme template goes here
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    `;
+
+    fs.writeFile(`README.md`, md, (err) =>
+      err ? console.log(err) : console.log("Success!")
+    );
+  });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
