@@ -1,51 +1,25 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributors](https://img.shields.io/github/contributors/404pandas/sarcasticProfessionalReadme.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/sarcasticProfessionalReadme/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/404pandas/sarcasticProfessionalReadme.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/sarcasticProfessionalReadme/network/members)
+[![Stargazers](https://img.shields.io/github/stars/404pandas/sarcasticProfessionalReadme.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/sarcasticProfessionalReadme/stargazers)
+[![Issues](https://img.shields.io/github/issues/404pandas/sarcasticProfessionalReadme.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/sarcasticProfessionalReadme/issues)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/404pandas)
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/${answers.username}/${answers.repo}">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">${answers.title}</h3>
+<h3 align="center">"Professional" Readme Generator</h3>
 
   <p align="center">
-    project_description
+    This project is a Readme generator created for school. After making the required app to the specifications I plan to add more dynamic elements and an option to spit out a "sassy" readme instead.
     <br />
-    <a href="https://github.com/${answers.username}/${answers.repo}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/404pandas/sarcasticProfessionalReadme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/${answers.username}/${answers.repo}">View Demo</a>
+    <a href="https://github.com/404pandas/sarcasticProfessionalReadme">View Demo</a>
     ·
-    <a href="https://github.com/${answers.username}/${answers.repo}/issues">Report Bug</a>
+    <a href="https://github.com/404pandas/sarcasticProfessionalReadme/issues">Report Bug</a>
     ·
-    <a href="https://github.com/${answers.username}/${answers.repo}/issues">Request Feature</a>
+    <a href="https://github.com/404pandas/sarcasticProfessionalReadme/issues">Request Feature</a>
   </p>
 </div>
 
@@ -75,60 +49,34 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screenshot of live image](directPathHere)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `${answers.username}`, `${answers.repo}`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `${answers.title}`, `project_description`
+In past assignments, I have lost points for taking the base assignment and adding extra things on top of it to experiment with code. I plan to submit this assignment with the base requirements before adding onto it and making a sarcastic option at the end.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+![Nodejs](http://www.nodejs.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+### Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Read the information below for a guide on how to use this app.
 
-### Prerequisites
+## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Inquirer
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+## Installation
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/${answers.username}/${answers.repo}.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+Clone the repo </br>
+`git clone https://github.com/404pandas/sarcasticProfessionalReadme.git`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,9 +84,13 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Screenshot of live image](directPathHere)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![GIF of functionality](directPathHere)
+
+![GIF of functionality](directPathHere)
+
+![GIF of functionality](directPathHere)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,12 +98,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Add more dynamic elements
+- [ ] Add sassy option
 
-See the [open issues](https://github.com/${answers.username}/${answers.repo}/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/404pandas/sarcasticProfessionalReadme/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,9 +115,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch
+   `git checkout -b feature/AmazingFeature`
+3. Commit your Changes
+   `git commit -m 'Add some AmazingFeature'`
+4. Push to the Branch
+   `git push origin feature/AmazingFeature`
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,7 +129,8 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+This project is licensed under the MIT license.
+See LICENSE.txt for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +138,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Mary Elenius - mary.panda.jackson@gmail.com
 
-Project Link: [https://github.com/${answers.username}/${answers.repo}](https://github.com/${answers.username}/${answers.repo})
+Project Link: [https://github.com/404pandas/sarcasticProfessionalReadme](https://github.com/404pandas/sarcasticProfessionalReadme)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,41 +148,8 @@ Project Link: [https://github.com/${answers.username}/${answers.repo}](https://g
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+Collaborators on this project included instructional staff, TAs, and students from University of Central Florida.
+
+A special thanks to my daughter, Yennefer. Every day she proves she is small but mighty!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/404pandas/sarcasticProfessionalReadme.svg?style=plastic&logo=appveyor
-[contributors-url]: https://github.com/${answers.username}/${answers.repo}/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/${answers.username}/${answers.repo}.svg?style=plastic&logo=appveyor
-[forks-url]: https://github.com/${answers.username}/${answers.repo}/network/members
-[stars-shield]: https://img.shields.io/github/stars/${answers.username}/${answers.repo}.svg?style=plastic&logo=appveyor
-[stars-url]: https://github.com/${answers.username}/${answers.repo}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/${answers.username}/${answers.repo}.svg?style=plastic&logo=appveyor
-[issues-url]: https://github.com/${answers.username}/${answers.repo}/issues
-[license-shield]: https://img.shields.io/github/license/${answers.username}/${answers.repo}.svg?style=plastic&logo=appveyor
-[license-url]: https://github.com/${answers.username}/${answers.repo}/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[next.js]: https://img.shields.io/badge/next.js-000000?style=plastic&logo=appveyor&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
-[react.js]: https://img.shields.io/badge/React-20232A?style=plastic&logo=appveyor&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
-[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=plastic&logo=appveyor&logo=vuedotjs&logoColor=4FC08D
-[vue-url]: https://vuejs.org/
-[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=plastic&logo=appveyor&logo=angular&logoColor=white
-[angular-url]: https://angular.io/
-[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=plastic&logo=appveyor&logo=svelte&logoColor=FF3E00
-[svelte-url]: https://svelte.dev/
-[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=plastic&logo=appveyor&logo=laravel&logoColor=white
-[laravel-url]: https://laravel.com
-[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=plastic&logo=appveyor&logo=bootstrap&logoColor=white
-[bootstrap-url]: https://getbootstrap.com
-[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=plastic&logo=appveyor&logo=jquery&logoColor=white
-[jquery-url]: https://jquery.com

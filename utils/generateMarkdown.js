@@ -208,7 +208,8 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-${renderLicenseSection}
+${renderLicenseSection(data)}
+
 See LICENSE.txt for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
