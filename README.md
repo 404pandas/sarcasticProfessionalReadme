@@ -84,13 +84,9 @@ Clone the repo </br>
 
 ## Usage
 
-![Screenshot of live image](directPathHere)
+![Screenshot of live image](./assets/screencap.png)
 
-![GIF of functionality](directPathHere)
-
-![GIF of functionality](directPathHere)
-
-![GIF of functionality](directPathHere)
+![Video of functionality](https://drive.google.com/file/d/1o2zd2xYXZ0K5v7GtBbFCArvf-y8GslI7/view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
