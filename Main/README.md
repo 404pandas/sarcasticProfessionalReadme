@@ -1,104 +1,32 @@
-// Function to return License badge
-function returnLicenseShield(answers) {
-  switch (answers.license) {
-    case "APACHE 2.0":
-      response = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-      return response;
+<a name="readme-top"></a>
 
-    case "BSD 3":
-      response = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
-      return response;
-
-    case "GPL 3.0":
-      response = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
-      return response;
-
-    case "MIT":
-      response = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-      return response;
-
-    case "none":
-      response = "";
-      return response;
-  }
-}
-
-// Function to return License badge link
-function renderLicenseLink(answers) {
-  if (answers.license === "none") {
-    response = "";
-    return response;
-  } else {
-    return `<li><a href="#license">License</a></li>`;
-  }
-}
-
-// Function to return License section
-function renderLicenseSection(answers) {
-  if (answers.license === "none") {
-    response = "";
-    return response;
-  } else {
-    return `This project is licensed under the ${answers.license} license.`;
-  }
-}
-
-// Function to generate markddown
-function generateMarkdown(data) {
-  return `<a name="readme-top"></a>
-
-${returnLicenseShield(data)}
-[![Contributors][https://img.shields.io/github/contributors/${data.username}/${
-    data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
-    data.repo
-  }/graphs/contributors]
-[![Forks][https://img.shields.io/github/forks/${data.username}/${
-    data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
-    data.repo
-  }/network/members]
-[![Stargazers][https://img.shields.io/github/stars/${data.username}/${
-    data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
-    data.repo
-  }/stargazers]
-[![Issues][https://img.shields.io/github/issues/${data.username}/${
-    data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
-    data.repo
-  }/issues]
-
-[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555]][https://linkedin.com/in/${
-    data.linkedin
-  }]
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Contributors](https://img.shields.io/github/contributors/jj/j.svg?style=plastic&logo=appveyor)](https://github.com/jj/j/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/jj/j.svg?style=plastic&logo=appveyor)](https://github.com/jj/j/network/members)
+[![Stargazers](https://img.shields.io/github/stars/jj/j.svg?style=plastic&logo=appveyor)](https://github.com/jj/j/stargazers)
+[![Issues](https://img.shields.io/github/issues/jj/j.svg?style=plastic&logo=appveyor)](https://github.com/jj/j/issues)
+[![LinkedIn](https://img.shields.io/badge/-linkedin-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorb=555)](https://linkedin.com/in/j)
 
 <!-- PROJECT LOGO -->
 
 <div align="center">
-  <a href="https://github.com/${data.username}/${data.repo}">
+  <a href="https://github.com/jj/j">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">${data.title}</h3>
+<h3 align="center">j</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/${data.username}/${
-    data.repo
-  }"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jj/j"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/${data.username}/${data.repo}">View Demo</a>
+    <a href="https://github.com/jj/j">View Demo</a>
     ·
-    <a href="https://github.com/${data.username}/${
-    data.repo
-  }/issues">Report Bug</a>
+    <a href="https://github.com/jj/j/issues">Report Bug</a>
     ·
-    <a href="https://github.com/${data.username}/${
-    data.repo
-  }/issues">Request Feature</a>
+    <a href="https://github.com/jj/j/issues">Request Feature</a>
   </p>
 </div>
 
@@ -122,7 +50,7 @@ ${returnLicenseShield(data)}
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    ${renderLicenseLink(data)}
+    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -158,12 +86,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-
-
 ### Installation
 
 1. Clone the repo
-   git clone https://github.com/${data.username}/${data.repo}.git
+   git clone https://github.com/jj/j.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,9 +112,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/${data.username}/${
-    data.repo
-  }/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jj/j/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +137,14 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-${renderLicenseSection}
+function renderLicenseSection(answers) {
+if (answers.license === "none") {
+response = "";
+return response;
+} else {
+return `This project is licensed under the ${answers.license} license.`;
+}
+}
 See LICENSE.txt for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -224,9 +155,7 @@ See LICENSE.txt for more information.
 
 Your Name - email@email_client.com
 
-Project Link: [https://github.com/${data.username}/${
-    data.repo
-  }](https://github.com/${data.username}/${data.repo})
+Project Link: [https://github.com/jj/j](https://github.com/jj/j)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -239,7 +168,3 @@ Project Link: [https://github.com/${data.username}/${
 - []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-`;
-}
-
-module.exports = generateMarkdown;
