@@ -241,56 +241,6 @@ Project Link: [https://github.com/${answers.username}/${
 - []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/${
-    answers.username
-  }/${answers.repo}.svg?style=plastic&logo=appveyor
-[contributors-url]: https://github.com/${answers.username}/${
-    answers.repo
-  }/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/${answers.username}/${
-    answers.repo
-  }.svg?style=plastic&logo=appveyor
-[forks-url]: https://github.com/${answers.username}/${
-    answers.repo
-  }/network/members
-[stars-shield]: https://img.shields.io/github/stars/${answers.username}/${
-    answers.repo
-  }.svg?style=plastic&logo=appveyor
-[stars-url]: https://github.com/${answers.username}/${answers.repo}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/${answers.username}/${
-    answers.repo
-  }.svg?style=plastic&logo=appveyor
-[issues-url]: https://github.com/${answers.username}/${answers.repo}/issues
-[license-shield]: https://img.shields.io/github/license/${answers.username}/${
-    answers.repo
-  }.svg?style=plastic&logo=appveyor
-[license-url]: https://github.com/${answers.username}/${
-    answers.repo
-  }/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[next.js]: https://img.shields.io/badge/next.js-000000?style=plastic&logo=appveyor&logo=nextdotjs&logoColor=white
-[next-url]: https://nextjs.org/
-[react.js]: https://img.shields.io/badge/React-20232A?style=plastic&logo=appveyor&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
-[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=plastic&logo=appveyor&logo=vuedotjs&logoColor=4FC08D
-[vue-url]: https://vuejs.org/
-[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=plastic&logo=appveyor&logo=angular&logoColor=white
-[angular-url]: https://angular.io/
-[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=plastic&logo=appveyor&logo=svelte&logoColor=FF3E00
-[svelte-url]: https://svelte.dev/
-[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=plastic&logo=appveyor&logo=laravel&logoColor=white
-[laravel-url]: https://laravel.com
-[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=plastic&logo=appveyor&logo=bootstrap&logoColor=white
-[bootstrap-url]: https://getbootstrap.com
-[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=plastic&logo=appveyor&logo=jquery&logoColor=white
-[jquery-url]: https://jquery.com
-
 `;
 }
 

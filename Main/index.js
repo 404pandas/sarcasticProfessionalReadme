@@ -1,16 +1,10 @@
-// Inquirer command example
-// inquirer.prompt(questions, answers) -> promise
-// inquirer.registerPrompt(name, prompt)
-// inquirer.createPromptModule() -> prompt function
+const inquirer = require("inquirer");
+
+// Question types: input, number, confirm, list, rawlist, expand, checkbox, password, editor
+// To add questions, include type, message, name, and choices
 
 // The Core Module File System
 const fs = require("fs");
-
-// Inquirer
-const inquirer = require("inquirer");
-//
-// Question types: input, number, confirm, list, rawlist, expand, checkbox, password, editor
-// To add questions, include type, message, name, and choices
 
 // Markdown
 const generateMarkdown = require("../utils/generateMarkdown");
@@ -46,25 +40,31 @@ const questions = [
     message: "What is your LINKEDIN USERNAME?",
     name: "linkedin",
   },
+
+  {
+    type: "list",
+    message: "What kind of license should your project have?",
+    name: "license",
+    choices: ["MIT", "APACHE 2.0", "BSD 3", "GPL 3.0", "none"],
+  },
 ];
 
 // Writes README file
-function writeToFile(fileName, data) {
-  fs.appendFile(
-    "GENERATEDUSERREADME.md",
-    JSON.stringify(data, null, "\t"),
-    (err) => (err ? console.error(err) : console.log("Logged!"))
+function writeToFile(data) {
+  fs.writeFile("README.md", data, (err) =>
+    err ? console.log(err) : console.log("Generating README...")
   );
 }
 
 // Function to initialize app
 function init() {
-  inquirer.prompt(questions).then((data) => writeToFile);
+  inquirer
+    .prompt(questions)
+    .then((answers) => writeToFile(generateMarkdown(answers)));
 }
 
 // Function call to initialize app
 init();
-0;
 
 // Questions for future development
 

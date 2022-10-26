@@ -4,15 +4,12 @@
   "description": "Readme generator with a sarcastic twist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test"
   },
   "author": "Mary Elenius",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "devDependencies": {},
   "repository": {
