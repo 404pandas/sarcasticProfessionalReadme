@@ -12,10 +12,6 @@ const inquirer = require("inquirer");
 // Question types: input, number, confirm, list, rawlist, expand, checkbox, password, editor
 // To add questions, include type, message, name, and choices
 
-// Jest
-const jest = require("jest");
-const { type } = require("os");
-
 // Markdown
 const generateMarkdown = require("../utils/generateMarkdown");
 
@@ -70,34 +66,21 @@ const questions = [
     name: "contact",
     choice: ["email", "phone", "telekinesis"],
   },
-]
+];
 
-  //   Name the files with the name answer
-  .then((data) => {
-    // const README = `${data.name.toLowerCase().split(" ").join("")}.json)`;
-    let markdown = `#${answers.title}
-                    
-                    
-                    
-                    
-                    
-                    dynamic readme template goes here
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    `;
-    // Writes README file
-    fs.writeFile(`README.md`, md, (err) =>
-      err ? console.log(err) : console.log("Success!")
-    );
-  });
+// Writes README file
+function writeToFile(fileName, data) {
+  fs.appendFile(
+    "GENERATEDUSERREADME.md",
+    JSON.stringify(data, null, "\t"),
+    (err) => (err ? console.error(err) : console.log("Logged!"))
+  );
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+// Function to initialize app
+function init() {
+  inquirer.prompt(questions).then((data) => writeToFile);
+}
 
 // Function call to initialize app
 init();
