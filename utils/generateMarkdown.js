@@ -46,32 +46,32 @@ function renderLicenseSection(answers) {
 // Function to generate markddown
 function generateMarkdown(data) {
   return `<a name="readme-top"></a>
-
+  <!-- Add badges using the following format: -->
+  <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
 ${returnLicenseShield(data)}
-[![Contributors][https://img.shields.io/github/contributors/${data.username}/${
+[![Contributors](https://img.shields.io/github/contributors/${data.username}/${
     data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
+  }.svg?style=plastic&logo=appveyor)](https://github.com/${data.username}/${
     data.repo
-  }/graphs/contributors]
-[![Forks][https://img.shields.io/github/forks/${data.username}/${
+  }/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/${data.username}/${
     data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
+  }.svg?style=plastic&logo=appveyor)](https://github.com/${data.username}/${
     data.repo
-  }/network/members]
-[![Stargazers][https://img.shields.io/github/stars/${data.username}/${
+  }/network/members)
+[![Stargazers](https://img.shields.io/github/stars/${data.username}/${
     data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
+  }.svg?style=plastic&logo=appveyor)](https://github.com/${data.username}/${
     data.repo
-  }/stargazers]
-[![Issues][https://img.shields.io/github/issues/${data.username}/${
+  }/stargazers)
+[![Issues](https://img.shields.io/github/issues/${data.username}/${
     data.repo
-  }.svg?style=plastic&logo=appveyor]][https://github.com/${data.username}/${
+  }.svg?style=plastic&logo=appveyor)](https://github.com/${data.username}/${
     data.repo
-  }/issues]
-
-[![LinkedIn][https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555]][https://linkedin.com/in/${
+  }/issues)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/${
     data.linkedin
-  }]
+  })
 
 <!-- PROJECT LOGO -->
 
@@ -83,7 +83,7 @@ ${returnLicenseShield(data)}
 <h3 align="center">${data.title}</h3>
 
   <p align="center">
-    project_description
+    ${data.description}
     <br />
     <a href="https://github.com/${data.username}/${
     data.repo
@@ -132,35 +132,32 @@ ${returnLicenseShield(data)}
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- Add screenshots using the following format: -->
+<!-- ![Screenshot alt description](directPathOfScreenshots) -->
+
+![Screenshot of live image](directPathHere)
+
+Insert information about the project here
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- [![Nodejs.](nodejs-shield-url-here)(nodejs-url-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+### Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Getting Started info here.
 
-### Prerequisites
+## Prerequisites
 
+Prerequisites info here.
 
-
-### Installation
+## Installation
 
 1. Clone the repo
    git clone https://github.com/${data.username}/${data.repo}.git
@@ -172,8 +169,6 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
